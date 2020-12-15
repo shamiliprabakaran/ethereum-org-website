@@ -48,6 +48,11 @@ Ethereum, like Bitcoin, currently uses a proof-of-work (PoW) consensus protocol.
 
 Proof-of-work is done by [miners](/developers/docs/consensus-mechanisms/pow/mining/), who compete to create new blocks full of processed transactions. The winner shares the new block with the rest of the network and earns some freshly minted ETH. The race is won by whoever's computer can solve a math puzzle fastest – this produces the cryptographic link between the current block and the block that went before. Solving this puzzle is the work in "proof of work".
 
+#### Mining {#pow-working process}
+
+Proof of Work is incomplete without mining. Where as, mining is the process done by the miners who compete each other in the peer to peer network to create a new block by validating a transaction. This validation is done by solving the mathematical crypto-puzzle. It will be in the form of hashing as SHA-256. This hash value is generated, when a transaction of sending money from one node to other or any type of supply chain transaction or anything. For finding this puzzle, the miner should has high computational power. The miner who solves the crypto-puzzle will be rewarded with 12.5 Ethers and the within 10 minutes of time. (By Shamili Prabakaran) 
+
+
 #### Security {#pow-security}
 
 The network is kept secure by the fact that you'd need 51% of the network's computing power to defraud the chain. This would require such huge investments in equipment and energy, you're likely to spend more than you'd gain.
